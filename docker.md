@@ -24,7 +24,7 @@ docker-machine version 0.8.0, build b85aac1
 
 #三、运行
 
-1.打开命令行工具terminal，运行docker相关命令查看docker是否正确运行
+##1.打开命令行工具terminal，运行docker相关命令查看docker是否正确运行
 
 1]查看是否是最新版本docker
 ```
@@ -41,7 +41,7 @@ docker ps
 docker run hello-world
 ```
 
-2.对于复杂项目，需要启动Dockerized web服务器
+##2.对于复杂项目，需要启动Dockerized web服务器
 ```
 docker run -d -p 80:80 --name webserver nginx
 ```
@@ -49,13 +49,13 @@ docker run -d -p 80:80 --name webserver nginx
 然后运行：http://127.0.0.1/
 
 
-3.运行docker ps  查看运行的web服务器的详情
+##3.运行docker ps  查看运行的web服务器的详情
 ```
     CONTAINER ID        IMAGE                COMMAND                  CREATED              STATUS              PORTS                              NAMES
     56f433965490        nginx                "nginx -g 'daemon off"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, 443/tcp   webserver
 ```
 
-4.Stop or remove containers and images.
+##4.Stop or remove containers and images.
 
 1]停止运行webserver
 ```
