@@ -12,27 +12,31 @@
 
 #二、查看Docker Engine、Compose、Machine版本
 ```
-  $ docker --version
-	Docker version 1.12.0, build 8eab29e
+$ docker --version
+Docker version 1.12.0, build 8eab29e
 
-	$ docker-compose --version
-	docker-compose version 1.8.0, build f3628c7
+$ docker-compose --version
+docker-compose version 1.8.0, build f3628c7
 
-	$ docker-machine --version
-	docker-machine version 0.8.0, build b85aac1
+$ docker-machine --version
+docker-machine version 0.8.0, build b85aac1
 ```
 
 #三、运行
 
 1.打开命令行工具terminal，运行docker相关命令查看docker是否正确运行
+1]查看是否是最新版本docker
 ```
-1.查看是否是最新版本docker
 docker version
+```
 
-2.docker 运行信息
+2]docker 运行信息
+```
 docker ps
+```
 
-3.运行hello-world
+3]运行hello-world
+```
 docker run hello-world
 ```
 
@@ -51,6 +55,7 @@ docker run -d -p 80:80 --name webserver nginx
 ```
 
 4.Stop or remove containers and images.
+
 1]停止运行webserver
 ```
 docker stop webserver
