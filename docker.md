@@ -25,6 +25,7 @@ docker-machine version 0.8.0, build b85aac1
 #三、运行
 
 1.打开命令行工具terminal，运行docker相关命令查看docker是否正确运行
+
 1]查看是否是最新版本docker
 ```
 docker version
