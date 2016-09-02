@@ -84,3 +84,14 @@ docker rmi <imageID>|<imageName>
 docker rmi nginx
 ```
 
+##常用命令
+
+###docker instpect
+```
+docker instpect nginx:latest
+docker inspect nginx-container
+```
+> 说明：检查镜像或者容器的参数，默认返回 JSON 格式。
+> -f 指定返回值的模板文件。
+
+
