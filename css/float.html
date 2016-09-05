@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		*{padding: 0;margin: 0;list-style: none;}
+		ul{border: 1px solid #ccc;}
+		ul li{width:100px; height: 100px; float: left;}
+		.parent {zoom:1;}    /*==for IE6/7 Maxthon2==*/
+		.parent :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}   /*==for FF/chrome/opera/IE8==*/
+		.sub1{background: red;}
+		.sub2{background: blue;}
+		.sub3{background: pink;}
+	</style>
+</head>
+<body>
+	<ul class="parent">
+		<li class="sub1"></li>
+		<li class="sub2"></li>
+		<li class="sub3"></li>
+	</ul>
+</body>
+</html>
