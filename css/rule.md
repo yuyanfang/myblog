@@ -6,7 +6,7 @@ FE-CMC建议前端代码提交同学仔细阅读如下规范补充说明文档
 
 [https://github.com/ecomfe/fecs/wiki/FAQ](https://github.com/ecomfe/fecs/wiki/FAQ)
 
-
+```
 1. 前言
 2. 代码风格
 2.1. 文件
@@ -41,6 +41,7 @@ FE-CMC建议前端代码提交同学仔细阅读如下规范补充说明文档
 8.1. 属性前缀
 8.2. Hack
 8.3. Expression
+```
 
 ##1. 前言
 CSS作为网页样式的描述语言，在百度一直有着广泛的应用。本文档的目标是使CSS代码风格保持一致，容易被理解和被维护。
