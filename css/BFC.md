@@ -1,26 +1,4 @@
-```
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	<style>
-		*{padding:0px;margin: 0px;list-style: none;}
-		.box{width: 300px;height: 200px;}
-		.aside{float: left;width: 100px;height: 150px;background: yellow;}
-		.main{height: 200px;background: pink; overflow: hidden;}
-	</style>
-	<div class="box">
-		<div class="aside"></div>
-		<div class="main"></div>
-	</div>
-</body>
-</html>
-```
+
 #一、BFC是什么？
 
 ##BFC 定义
@@ -54,3 +32,28 @@ BFC(Block formatting context)直译为"块级格式化上下文"。它是一个�
 2. 清除内部浮动
 
 3. 防止垂直 margin 重叠
+
+例如：
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<style>
+		*{padding:0px;margin: 0px;list-style: none;}
+		.box{width: 300px;height: 200px;}
+		.aside{float: left;width: 100px;height: 150px;background: yellow;}
+		.main{height: 200px;background: pink; overflow: hidden;}
+	</style>
+	<div class="box">
+		<div class="aside"></div>
+		<div class="main"></div>
+	</div>
+</body>
+</html>
+```
