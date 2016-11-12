@@ -15,3 +15,7 @@
 [ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)
 
 [angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
+
+
+# nvm
+[使用 nvm 管理不同版本的 node 与 npm](使用 nvm 管理不同版本的 node 与 npm)
