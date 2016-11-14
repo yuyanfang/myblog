@@ -26,3 +26,5 @@
 [使用 nvm 管理不同版本的 node 与 npm](使用 nvm 管理不同版本的 node 与 npm)
 
 [nvm和nodejs安装使用](http://www.kancloud.cn/summer/nodejs-install/71975)
+
+[简单谈谈node.js 版本控制 nvm和 n](http://www.jb51.net/article/73424.htm)
