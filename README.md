@@ -31,3 +31,5 @@
 
 #bower
 * [.bower](https://bower.io/docs/config/)
+
+* [bower使用笔记](http://www.jianshu.com/p/7c9be077bc82)
