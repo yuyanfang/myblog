@@ -33,3 +33,5 @@
 * [.bower](https://bower.io/docs/config/)
 
 * [bower使用笔记](http://www.jianshu.com/p/7c9be077bc82)
+
+* [存在使用bower install安装指定代码库的min.js/css的方法么？](https://segmentfault.com/q/1010000000494228)
