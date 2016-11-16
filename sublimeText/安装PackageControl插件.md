@@ -8,7 +8,7 @@ Package Control 插件是一个方便 Sublime text 管理插件的插件，但�
 
 ## 常用安装方法
 
-### 1.代码安装  python代码
+### 1.代码安装（python代码）
 
 从菜单 View - Show Console 或者 ctrl + ~ 快捷键，调出 console。将以下 Python 代码粘贴进去并 enter 执行，不出意外即完成安装
 
