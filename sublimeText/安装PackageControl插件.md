@@ -27,5 +27,5 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 * 1.点击Preferences > Browse Packages菜单
 * 2.进入 Installed Packages 目录
-* 3.下载[ Package Control.sublime-package](https://sublime.wbond.net/Package%20Control.sublime-package) 如果下载不了，可以去github [package_control](https://github.com/wbond/package_control) 点击右侧clone or download 按钮选择download zip下载后重命名为package control，粘贴进Installed Packages
+* 3.下载[ Package Control.sublime-package](https://sublime.wbond.net/Package%20Control.sublime-package) 如果下载不了，可以去github [package_control](https://github.com/wbond/package_control) 点击右侧clone or download 按钮选择download zip下载后重命名为package control。粘贴进Installed Packages目录
 * 4.重启sublime
