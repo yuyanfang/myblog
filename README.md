@@ -29,9 +29,18 @@
 
 * [简单谈谈node.js 版本控制 nvm和 n](http://www.jb51.net/article/73424.htm)
 
-#bower
+# bower
 * [.bower](https://bower.io/docs/config/)
 
 * [bower使用笔记](http://www.jianshu.com/p/7c9be077bc82)
 
 * [存在使用bower install安装指定代码库的min.js/css的方法么？](https://segmentfault.com/q/1010000000494228)
+
+# webpack
+
+* 1.[Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
+* 2.[webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
+
+# 全栈
+
+* [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
