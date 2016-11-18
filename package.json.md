@@ -33,6 +33,10 @@
 ## 插件
 
 ```
+// 分析JSON文件并把它转换为JavaScript文件
+json-loader
+
+
 // 自动添加适应不同浏览器的CSS前缀
 postcss-loader
 autoprefixer
@@ -49,6 +53,14 @@ babel-core
 babel-loader
 babel-preset-es2015
 babel-preset-react
+
+// 本地开发服务器，这个本地服务器基于node.js构建，可以实现你想要的这些功能，
+// 不过它是一个单独的组件，在webpack中进行配置之前需要单独安装它作为项目依赖
+webpack-dev-server
+
+
+
+
 
 
 
