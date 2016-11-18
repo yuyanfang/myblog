@@ -18,8 +18,6 @@
 
 
 
-
-
 # nvm
 * [使用brew安装软件](http://www.cnblogs.com/TankXiao/p/3247113.html)
 
@@ -39,7 +37,10 @@
 # webpack
 
 * 1.[Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
+
 * 2.[webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
+
+* 3. [入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
 
 # 全栈
 
