@@ -1,48 +1,39 @@
 # myblog
 
 
-#网页性能
+##网页性能
 
-* [1 网页性能管理详解](http://www.tuicool.com/articles/UfqiQvf)
-
-* [2 设计模式](http://web.jobbole.com/29454/)
-
-* [3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)
-
-
-
-# angularjs
-
-* [1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)
-
-* [2 angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
+- [1 网页性能管理详解](http://www.tuicool.com/articles/UfqiQvf)
+- [2 设计模式](http://web.jobbole.com/29454/)
+- [3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)
+- [4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
 
 
 
-# nvm
-* [1 使用brew安装软件](http://www.cnblogs.com/TankXiao/p/3247113.html)
+## angularjs
 
-* [2 使用 nvm 管理不同版本的 node 与 npm](使用 nvm 管理不同版本的 node 与 npm)
+- [1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)
+- [2 angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
 
-* [3 nvm和nodejs安装使用](http://www.kancloud.cn/summer/nodejs-install/71975)
+## nvm
 
-* [4 简单谈谈node.js 版本控制 nvm和 n](http://www.jb51.net/article/73424.htm)
+- [1 使用brew安装软件](http://www.cnblogs.com/TankXiao/p/3247113.html)
+- [2 使用 nvm 管理不同版本的 node 与 npm](使用 nvm 管理不同版本的 node 与 npm)
+- [3 nvm和nodejs安装使用](http://www.kancloud.cn/summer/nodejs-install/71975)
+- [4 简单谈谈node.js 版本控制 nvm和 n](http://www.jb51.net/article/73424.htm)
 
-# bower
-* [1 .bower](https://bower.io/docs/config/)
+## bower
 
-* [2 bower使用笔记](http://www.jianshu.com/p/7c9be077bc82)
+- [1 .bower](https://bower.io/docs/config/)
+- [2 bower使用笔记](http://www.jianshu.com/p/7c9be077bc82)
+- [3 存在使用bower install安装指定代码库的min.js/css的方法么？](https://segmentfault.com/q/1010000000494228)
 
-* [3 存在使用bower install安装指定代码库的min.js/css的方法么？](https://segmentfault.com/q/1010000000494228)
+## webpack
 
-# webpack
+- [1 Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
+- [2 webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
+- [3 入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
 
-* [1 Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
+## 全栈
 
-* [2 webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
-
-* [3 入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
-
-# 全栈
-
-* [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
+- [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
