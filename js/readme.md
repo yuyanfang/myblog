@@ -1,2 +1,2 @@
 
-- [一、模块的写法](./js/01module.md)
+- [一、模块的写法](./docs/01module.md)
