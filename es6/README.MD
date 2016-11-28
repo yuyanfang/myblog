@@ -1,4 +1,4 @@
-#es6 新特性
+# es6 新特性
 
 - [let](./docs/01let.md)
 - [const](./docs/02const.md)
@@ -17,3 +17,7 @@
 - [object-is](./examples/16object-is.es)
 - [object-assign](./examples/17object-assign.es)
 - [setprototypeof](./examples/18setprototypeof.es)
+
+# 其它属性
+
+- [Object.defineProperty()](./docs/o01defineProperty.md)

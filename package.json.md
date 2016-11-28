@@ -21,7 +21,7 @@
     "postcss-loader": "^1.1.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2" 
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "react": "^15.4.0",
