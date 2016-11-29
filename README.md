@@ -41,3 +41,6 @@
 ## 全栈
 
 - [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
+
+## chrome
+-[比console.log更多－chrome 调试命令](http://www.jianshu.com/p/a894f7f8d27d)
