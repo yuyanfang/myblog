@@ -1,6 +1,10 @@
 # webpack 指南
 
-> 需要在当前环境安装nodejs
+> 最近用 webpack + vue 搭建了移动端单页面项目，想用两周时间把工具的使用到项目搭建认真梳理一下，写博客比想象中要难，希望能把自己想表达的意思表达出来。
+
+官方解释：webpack是项目打包工具或模块管理工具
+
+需要在当前环境安装nodejs
 
 学习这个例子后你将学会：
 
@@ -48,6 +52,7 @@ document.write('<div class="box-one">hello webpack</div>');
 ```
 webpack ./entry.js ./bundle.js
 ```
+---
 
 #### 2、引用外部文件
 
@@ -62,7 +67,6 @@ module.exports = "<div class='box-two'>It works from content.js</div>"
 ```
 
 entry.js
-
 ```
 document.write('<div class="box-one">hello webpack</div>');
 document.write(require('./content.js'));
@@ -73,6 +77,7 @@ document.write(require('./content.js'));
 ```
 webpack ./entry.js ./bundle.js
 ```
+---
 
 #### 3、lodaer的使用
 
@@ -101,8 +106,85 @@ document.write(require('./content.js'));
 
 运行:
 ```
-webpack ./entry.js ./bundle.js
+// 通过webpack 的 --module-bind 参数
+webpack ./entry.js ./bundle.js --module-bind='css=style!css'
 ```
+
+---
+
+
+#### 4. 使用webpack.config.js配置文件
+
+刚才的例子中用到了 webpack 的 --module-bind参数对文件进行了编译，显然这样做非常麻烦，项目越大困难越大，我们引入 webpack.config.js文件
+
+webpack.config.js
+```
+module.exports = {
+	entry: './entry.js',
+	output: {
+		path: __dirname + "/dist",
+		filename: 'bundle.js'
+	},
+	module: {
+		loaders: [
+			{test: /\.css$/, loader: 'style!css'}
+		]
+	}
+};
+
+说明：
+	entry   入口文件
+	output  输出文件
+	module	模块加载
+```
+
+entry.js
+```
+require('./index.css');
+
+document.write('<div class="box-one">hello webpack</div>');
+document.write(require('./content.js'));
+```
+
+#### 5.使用webpack-dev-server
+
+- 安装依赖:
+```
+npm install webpack-dev-server --save-dev
+```
+
+- 运行:
+```
+// 指令
+webpack-dev-server
+
+// 命令行提示
+baidu@baidudeMacBook-Pro:~/Desktop/github/myblog/webpack/examples/tutorial01$ webpack-dev-server
+
+http://localhost:8080/webpack-dev-server/
+webpack result is served from /
+content is served from /Users/baidu/Desktop/github/myblog/webpack/examples/tutorial01
+Hash: a6728a32c332fb88598a
+Version: webpack 1.13.3
+Time: 766ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  12.2 kB       0  [emitted]  main
+chunk    {0} bundle.js (main) 10.3 kB [rendered]
+    [0] ./entry.js 163 bytes {0} [built]
+    [1] ./index.css 895 bytes {0} [built]
+    [2] ./~/css-loader!./index.css 527 bytes {0} [built]
+    [3] ./~/css-loader/lib/css-base.js 1.46 kB {0} [built]
+    [4] ./~/style-loader/addStyles.js 7.15 kB {0} [built]
+    [5] ./content.js 70 bytes {0} [built]
+webpack: bundle is now VALID.
+```
+webpack-dev-server 
+说明：
+- 简单来说，webpack-dev-server就是一个小型的静态文件服务器。使用它，可以为webpack打包生成的资源文件提供Web服务
+- http://localhost:8080/webpack-dev-server/ 通过该链接访问本地启用的服务器
+- webpack-dev-server 生成的包并没有放在你的真实目录中,而是放在了内存中.也就是说在项目目录中没有输出文件。
+
+
 
 
 
