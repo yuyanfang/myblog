@@ -56,16 +56,19 @@ touch content.js
 ```
 
 content.js
+
 ```
 module.exports = "<div class='box-two'>It works from content.js</div>"
 ```
 
 entry.js
+
 ```
 document.write('<div class="box-one">hello webpack</div>');
 document.write(require('./content.js'));
 
 运行
+
 ```
 webpack ./entry.js ./bundle.js
 ```
