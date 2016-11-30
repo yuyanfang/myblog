@@ -1,0 +1,3 @@
+body{ background: #eee; font-size: 12px; font-family: '幼圆'}
+.box-one{ width: 200px; height: 200px; line-height: 200px; vertical-align: middle; text-align: center; background: yellow; border-radius: 5px;}
+.box-two{margin-top: 10px; width: 200px; height: 200px; line-height: 200px; vertical-align: middle; text-align: center; background: pink; border-radius: 5px;}
