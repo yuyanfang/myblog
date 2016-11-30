@@ -66,6 +66,7 @@ entry.js
 ```
 document.write('<div class="box-one">hello webpack</div>');
 document.write(require('./content.js'));
+```
 
 运行
 
