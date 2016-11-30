@@ -1,11 +1,11 @@
-# webpack 指南
+# webpack 入门例子
 
 > 最近用 webpack + vue 搭建了移动端单页面项目，想用两周时间把工具的使用到项目搭建认真梳理一下，写博客比想象中要难，希望能把自己想表达的意思表达出来。
 
 官方解释：webpack是项目打包工具或模块管理工具
 
-需要在当前环境安装nodejs
 学习这个例子后你将学会：
+
 - 安装webapck
 - 使用webpakck
 - 使用[loader](http://www.cnblogs.com/leinov/p/5330944.html)加载器
