@@ -1,6 +1,6 @@
 ##网页性能
 
-- [1 网页性能管理详解](http://www.tuicool.com/articles/UfqiQvf)
+- [1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)
 - [2 设计模式](http://web.jobbole.com/29454/)
 - [3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)
 - [4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
