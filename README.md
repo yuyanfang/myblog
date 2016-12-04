@@ -1,6 +1,3 @@
-# myblog
-
-
 ##网页性能
 
 - [1 网页性能管理详解](http://www.tuicool.com/articles/UfqiQvf)
@@ -36,6 +33,7 @@
 - [3 入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
 
 ## mac
+
 - [Mac 终端命令大全](http://www.jianshu.com/p/3291de46f3ff)
 
 ## 全栈
@@ -43,4 +41,9 @@
 - [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
 
 ## chrome
+
 - [比console.log更多－chrome 调试命令](http://www.jianshu.com/p/a894f7f8d27d)
+
+## ES6
+
+-  [ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693#articleHeader0)
