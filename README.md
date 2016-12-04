@@ -1,7 +1,7 @@
 ##网页性能
 
 - [1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)
-- [2 设计模式](http://web.jobbole.com/29454/)
+- [2 设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)
 - [4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
 - [5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
