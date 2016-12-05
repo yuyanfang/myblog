@@ -56,20 +56,8 @@
 
 | 网页性能 | 全栈 | ES6 | chrome | angularjs | nvm | bower | webpack | mac |
 | :--------| :--------| :--------| :--------| :--------| :--------| :--------| :--------| :--------|
-|[1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)<br>[2 设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)<br>[3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)<br>[4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)<br>[5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
-|[JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)<br>
-|
-[ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693#articleHeader0)
-[ES6/ES2015核心内容（下）](https://segmentfault.com/a/1190000004368132)
-
-|
-[比console.log更多－chrome 调试命令](http://www.jianshu.com/p/a894f7f8d27d)
-
-|
-[1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)
-[2 angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
-
-|
+|[1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)<br>[2 设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)<br>[3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)<br>[4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)<br>[5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn) | [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)<br> | [ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693#articleHeader0)
+<br>[ES6/ES2015核心内容（下）](https://segmentfault.com/a/1190000004368132) | [比console.log更多－chrome 调试命令](http://www.jianshu.com/p/a894f7f8d27d)<br> | [1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm) <br> [2 angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)<br>|
 [1 使用brew安装软件](http://www.cnblogs.com/TankXiao/p/3247113.html)
 [2 使用 nvm 管理不同版本的 node 与 npm](使用 nvm 管理不同版本的 node 与 npm)
 [3 nvm和nodejs安装使用](http://www.kancloud.cn/summer/nodejs-install/71975)
