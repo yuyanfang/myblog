@@ -56,15 +56,8 @@
 
 | 网页性能 | 全栈 | ES6 | chrome | angularjs | nvm | bower | webpack | mac |
 | :--------| :--------| :--------| :--------| :--------| :--------| :--------| :--------| :--------|
-|[1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)|
-[2 设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
-[3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)
-[4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
-[5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
-
-|
-[JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)
-
+|[1 网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)<br>[2 设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)<br>[3 用CSS开启硬件加速来提高网站性能](http://www.aseoe.com/show-11-144-1.html)<br>[4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)<br>[5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
+|[JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)<br>
 |
 [ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693#articleHeader0)
 [ES6/ES2015核心内容（下）](https://segmentfault.com/a/1190000004368132)
