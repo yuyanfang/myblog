@@ -12,6 +12,7 @@
 
 - [1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)
 - [2 angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
+- [3 UI-Router:为什么开发者都不喜欢Angular.js内置的路由](http://www.jianshu.com/p/35c0acdea86c)
 
 ## nvm
 
