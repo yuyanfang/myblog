@@ -29,9 +29,10 @@
 
 ## webpack
 
-- [1 Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
-- [2 webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
-- [3 入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
+- [Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
+- [webpack-demos 阮一峰](https://github.com/ruanyf/webpack-demos)
+- [入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f#)
+- [vue-cli#2.0 webpack 配置分析](https://gold.xitu.io/post/584e48b2ac502e006c74a120?utm_source=gold_browser_extension)
 
 ## mac
 
