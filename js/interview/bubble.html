@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bubble-冒泡排序</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<p>经典排序算法 - 冒泡排序Bubble sort</p>
+	<p>原理是临近的数字两两进行比较,按照从小到大或者从大到小的顺序进行交换,</p>
+	<p>这样一趟过去后,最大或最小的数字被交换到了最后一位,</p>
+	<p>然后再从头开始进行两两比较交换,直到倒数第二位时结束,其余类似看例子</p>
+	<p>例子为从小到大排序,</p>
+	<h2>时间复杂度：最好：O(n)，最坏：O(n^2)，平均：O(n^2)</h2>
+	<h2>空间复杂度：O(1)</h2>
+	<h2>稳定性：稳定</h2>
+</body>
+
+<script>
+function bubbleSort(arr){
+	if(arr.length <= 1){
+		return arr;
+	}
+
+	for(var i = 0, len = arr.length; i < len; i++){
+		for(var j = 0; j < len - i - 1; j++){
+			if(arr[j] > arr[j+1]){
+				var temp = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = temp;
+			}
+		}
+	}
+	return arr;
+}
+var arr = [85, 24, 63, 45, 17, 31, 96, 50];
+
+document.write("排序前：" + arr);
+document.write("排序后：" + bubbleSort(arr));
+</script>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+
+    // 字符串个数
+    /*
+	var str = 'asdfssaaasasasasaa';
+	var arr = str.split('');
+	var json = {};
+
+	for(var i = 0; i < arr.length; i++ ){
+		if(json[arr[i]]){
+			++json[arr[i]];
+		}else{
+			json[arr[i]] = 1;
+		}
+	}
+
+	var iMax = 0;
+	var iKey = null;
+	for(var key in json){
+		if(json[key] > iMax){
+			iMax = json[key];
+			iKey = key;
+		}
+	}
+	console.log("key:" + iKey + "  value:" + iMax);
+	*/
+
+	//9，编写一个方法 去掉一个数组的重复元素
+	/*
+	var arr = [1, 2, 3, 4, 5, 2, 3, 5, 7, 9, 'a'];
+	var temp = [];
+	for(var i = 0 ; i < arr.length; i++){
+		if(temp.indexOf(arr[i]) < 0){
+			temp.push(arr[i]);
+		}
+	}
+
+	console.log(temp.toString());
+	*/
+
+	function deepCopy(obj){
+		var newObj = {};
+		newObj = obj.constructor === Array ? []: {};
+		if(typeof obj !== 'object'){
+			return obj;
+		}else if(window.JSON){
+			var str = JSON.stringify(obj);
+			newObj = JSON.parse(str);
+		}else{
+			for(var i in obj){
+				newObj[i] = typeof obj[i] === 'object'? deepCopy(obj[i]): obj[i];
+			}
+		}
+		return newObj;
+	}
+	
+</script>
+</html>
