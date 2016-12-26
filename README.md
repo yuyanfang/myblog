@@ -57,3 +57,16 @@
 
 - [搬瓦工](http://banwagong.cn/)
 - [翻墙教程](https://segmentfault.com/a/1190000007467687)
+
+## 算法
+- [数据结构与算法分析]()
+- [微软的梦工场]()
+- [算法设计与分析]()
+- [算法引论]()
+- [Elements of Programming]()
+- [C Interfaces and Implementation]()
+- [Language Implementation Patterns]()
+- [Algorithms on Strings, Trees and Sequences]()
+- [Algorithm Design Manual]()
+- [编程珠玑&更多的编程珠玑]()
+- [Algorithms 4th]()
