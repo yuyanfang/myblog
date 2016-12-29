@@ -73,3 +73,6 @@
 - [Algorithm Design Manual]()
 - [编程珠玑&更多的编程珠玑]()
 - [Algorithms 4th]()
+
+
+- [最常用的排序——快速排序](http://ahalei.blog.51cto.com/4767671/1365285)
