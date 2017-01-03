@@ -61,6 +61,9 @@
 ## Charles
 - [Charles功能深入探索 | 移动研发](http://bbs.utest.qq.com/283)
 
+## 测试
+- [js单元测试断言框架chaijs](https://shaynegui.com/javascript-unit-test-chaijs/)
+
 ## 算法
 - [数据结构与算法分析]()
 - [微软的梦工场]()
