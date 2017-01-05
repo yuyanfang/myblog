@@ -1,4 +1,4 @@
 
-- [1. 模块的写法](./docs/01module.md)
-- [2. CommonJS](./docs/02commonjs.md)
-- [3. 深度拷贝](./docs/03deepclone.md)
+- [1. 模块的写法](./interview/01module.md)
+- [2. CommonJS](./interview/02commonjs.md)
+- [3. 深度拷贝](./interview/03deepclone.md)
