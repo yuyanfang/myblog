@@ -1,4 +1,4 @@
-# es6 新特性
+# [es6](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects) 新特性 
 
 - [let](./docs/01let.md)
 - [const](./docs/02const.md)
