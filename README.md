@@ -10,6 +10,10 @@
 ## Vim 
 
 - [Vim 常用快捷键](http://www.cnblogs.com/sld666666/archive/2010/04/05/1704462.html)
+
+## http
+
+- [HTTP/2.0 相比1.0有哪些重大改进？](https://www.zhihu.com/question/34074946)
     
 ## angularjs
 
