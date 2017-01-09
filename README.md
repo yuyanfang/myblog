@@ -7,8 +7,10 @@
 - [4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
 - [5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
 
+## Vim 
 
-
+- [Vim 常用快捷键](http://www.cnblogs.com/sld666666/archive/2010/04/05/1704462.html)
+    
 ## angularjs
 
 - [1 ngularjs指令中的compile与link函数详解](http://www.jb51.net/article/58229.htm)

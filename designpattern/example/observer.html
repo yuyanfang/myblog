@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+
+<script>
+//function  A(user) {
+//    console.log("A: " + user.age);
+//}
+//
+//function  B(user) {
+//    console.log("B: " + user.age);
+//}
+//
+//
+//function  C(user) {
+//    console.log("C: " + user.age);
+//}
+//
+//function  Person(name, age) {
+//    this.name = name;
+//    this.age = age;
+//}
+//
+//var user = new Person('wfj', 26);
+//A(user);
+//B(user);
+//C(user);
+
+var obs = {};
+(function(o){
+    var topics = {};
+    var num = -1;
+
+    // 发布
+    o.publish = function (topic, args) {
+        if(!topics[topic]){
+            return false;
+        }
+
+        setTimeout(function() {
+            var subscriber = topics[topic];
+            var len = subscriber ? subscriber.length : 0;
+
+            while(len--){
+                subscriber[len].des(topic, args);
+            }
+        }, 0);
+    }
+
+    // 订阅
+    o.subscribe = function (topic, func) {
+        if(!topics[topic]){
+            topics[topic] = [];
+        }
+        topics[topic].push({
+            id: ++num,
+            des: func
+        });
+    }
+})(obs)
+
+// 订阅
+obs.subscribe('tip1', function(topic, data){
+    console.log(topic + ":" + data);
+});
+
+// 发布
+obs.publish('tip1', 'hello world!');
+
+
+</script>
+</html>
