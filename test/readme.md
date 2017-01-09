@@ -9,4 +9,10 @@
 
 - [Array](./docs/array01.md)
 
+- [Math](./docs/match01.md)
 
+# 操作
+
+- [typeof 返回数据类型](./docs/typeof01.md)
+
+- [instanceof 判断一个变量是否为某一数据类型，或一个对象是否为一个对象的实例](./docs/instanceof01.md)

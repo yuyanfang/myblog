@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // 递归
+    function binarySearch(data, dest, start, end){
+        var end = end || data.length - 1,
+            start = start || 0,
+            m = Math.floor((start + end) / 2);
+        if(data[m] == dest){
+            return m;
+        }
+        if(dest < data[m]){
+            return binarySearch(data, dest, 0, m-1);
+        }else{
+            return binarySearch(data, dest, m+1, end);
+        }
+        return false;
+    }
+    var arr = [-34, 1, 3, 4, 5, 8, 34, 45, 65, 87];
+
+    binarySearch(arr,4);
+</script>
+
+<script>
+    // 非递归
+    function binarySearch(data, dest){
+        var h = data.length - 1,
+            l = 0;
+        while(l <= h){
+            var m = Math.floor((h + l) / 2);
+            if(data[m] == dest){
+                return m;
+            }
+            if(dest > data[m]){
+                l = m + 1;
+            }else{
+                h = m - 1;
+            }
+        }
+
+        return false;
+    }
+    var arr = [-34, 1, 3, 4, 5, 8, 34, 45, 65, 87];
+    binarySearch(arr,4);
+</script>
+</body>
+</html>
