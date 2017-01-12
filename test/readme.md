@@ -24,3 +24,7 @@
 ## css
 
 - [外层div100% 内层两个50%div 其中一个含有右边距](./docs/css_tt_layout01.md)
+
+## css兼容性 
+
+[http://www.tuicool.com/articles/reiYR3m](http://www.tuicool.com/articles/reiYR3m)
