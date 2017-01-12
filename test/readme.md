@@ -6,6 +6,7 @@
 
 - [TT - 求数组子集和的最大值](./docs/findArrayChildMax.md)
 - [TT - 归并排序](./docs/mergeSort.md)
+- [数组中出现次数超过一半的数字](./docs/findMany01.md)
 
 
 # 数组
