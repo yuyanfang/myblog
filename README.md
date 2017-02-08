@@ -58,6 +58,7 @@
 
 ## ES6
 
+- [《Understanding ECMAScript 6》](https://www.gitbook.com/book/sagittarius-rev/understanding-ecmascript-6-zh-ver/details)
 - [ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693#articleHeader0)
 - [ES6/ES2015核心内容（下）](https://segmentfault.com/a/1190000004368132)
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/#_)
@@ -91,4 +92,5 @@
 - [最快最简单的排序——桶排序](http://ahalei.blog.51cto.com/4767671/1362789)
 
 ### es5 与 es6 对比
+
  - [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
