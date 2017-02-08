@@ -9,6 +9,8 @@
 
 ## Vim 
 
+- [Vim入门基础](http://www.jianshu.com/p/bcbe916f97e1)
+
 - [Vim 常用快捷键](http://www.cnblogs.com/sld666666/archive/2010/04/05/1704462.html)
 
 ## http
