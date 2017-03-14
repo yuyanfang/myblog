@@ -7,6 +7,10 @@
 - [4 渲染性能](https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn)
 - [5 优先使用渲染层合并属性、控制层数量](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count?hl=zh-cn)
 
+## web安全
+
+- [web前端安全机制问题全解析](https://my.oschina.net/zhangstephen/blog/645011#OSC_h3_1)
+
 ## Vim 
 
 - [Vim入门基础](http://www.jianshu.com/p/bcbe916f97e1)
