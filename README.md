@@ -106,3 +106,5 @@
 ### vr
 
 - [html5 viewer](http://www.jianshu.com/p/284f614cc95e)
+
+- [使用 krpano 实现全景视频](https://segmentfault.com/a/1190000005819777#articleHeader6)
