@@ -102,3 +102,7 @@
 ### jekyll
 
 - [jekyll serve 报错](https://github.com/jekyll/jekyll/issues/3103)
+
+### vr
+
+[html5 viewer](http://www.jianshu.com/p/284f614cc95e)
