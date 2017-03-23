@@ -105,4 +105,4 @@
 
 ### vr
 
-[html5 viewer](http://www.jianshu.com/p/284f614cc95e)
+- [html5 viewer](http://www.jianshu.com/p/284f614cc95e)
